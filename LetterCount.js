@@ -12,7 +12,7 @@ function LetterCountI(str) {
   var wordArray = str.toLowerCase().split(" "),
       masterCnt = 0,
       letterCnt = 0,
-      ansWord = "1",
+      ansWord = "-1",
       equalWords = []; //probably won't need this.
   
  //repeated letter counting function
